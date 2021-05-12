@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+.content {
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+.content span {
+    display: inline-block;
+    height: 80px;
+    width: 170px;
+    margin: 0px 10px 0px 10px;
+    border: 1px solid white;
+    font-size: 25px;
+    line-height: 80px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.content span:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}

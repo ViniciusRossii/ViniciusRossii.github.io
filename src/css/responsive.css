@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+@media (max-width: 375px) {
+    .content span:nth-child(even) {
+        margin-top: 30px;
+    }
+    footer {
+        margin-top: 100px;
+    }
+}
+
+@media (max-width: 320px) {
+    footer {
+        margin-top: 30px;
+    }
+}

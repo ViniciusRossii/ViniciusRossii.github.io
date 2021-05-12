@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+footer {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+footer span {
+    cursor: pointer;
+}
+
+footer span:hover {
+    color: lightblue;
+}
