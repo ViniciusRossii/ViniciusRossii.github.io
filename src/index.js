@@ -3,7 +3,7 @@
 var div
 const links = []
 
-fetch('https://viniciusrossii.github.io/Repo.json/repo.json')
+fetch('src/repo.json')
     .then(response => response.json())
     .then(response => {
         for (var c = 0; c < response.sites.length; c++) {
